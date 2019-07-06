@@ -12,6 +12,20 @@
     <title>Form jsp</title>
 </head>
 <body>
-
+<form method="GET">
+    <label>
+        Email:
+        <input type="text" name="mail">
+    </label>
+    <label>
+        Name:
+        <input type="text" name="name">
+    </label>
+    <label>
+        Id:
+        <input type="number" name="id">
+    </label>
+    <input type="submit">
+</form>
 </body>
 </html>
